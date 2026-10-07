@@ -1,6 +1,9 @@
 # Quick-Commerce Dark Store Location Optimizer: Jaipur
 
 **Live dashboard:** https://darkstore-optimizer-zzbz7wrmfxqugs34zrknym.streamlit.app/
+
+![Dashboard](docs/dashboard.png)
+
 ## Business problem
 A quick-commerce company wants to open new dark stores in Jaipur. Each store costs lakhs in
 rent, fit-out and inventory, and a wrong location means low orders and missed 10-minute
@@ -17,6 +20,9 @@ promises. **Where should the stores go to reach the most people, with the least 
   Removing the competition penalty leaves all 10 sites in the same areas; a population-only model
   keeps 70% of them.
 
+![Opportunity map](docs/opportunity_map.png)
+
+
 ## Method
 1. **Grid:** H3 hexagons (resolution 8, about 0.74 km2) over a 12 km radius around central Jaipur.
 2. **Demand:** WorldPop 2024 population (100 m), colleges, hostels, offices and malls (OpenStreetMap),
@@ -28,6 +34,8 @@ promises. **Where should the stores go to reach the most people, with the least 
 6. **Hexagon value:** population x demand score x (1 - 0.5 x competition score).
    The weights are my own judgment calls, which is why the sensitivity analysis exists.
 7. **Sensitivity:** 8 scenarios varying delivery time, number of stores and competition penalty.
+
+![Business case](docs/business_case.png)
 
 ## Limitations
 - WorldPop is a modelled estimate, not a census count.
