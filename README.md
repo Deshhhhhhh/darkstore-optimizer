@@ -1,7 +1,6 @@
 # Quick-Commerce Dark Store Location Optimizer: Jaipur
 
-**Live dashboard:** LIVE_LINK_HERE
-
+**Live dashboard:** https://darkstore-optimizer-zzbz7wrmfxqugs34zrknym.streamlit.app/
 ## Business problem
 A quick-commerce company wants to open new dark stores in Jaipur. Each store costs lakhs in
 rent, fit-out and inventory, and a wrong location means low orders and missed 10-minute
