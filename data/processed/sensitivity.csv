@@ -1,0 +1,9 @@
+scenario,stores,minutes,pct_population_covered,sites_same_area_as_base
+"Base (10 stores, 10 min, penalty 0.5)",10,10,62.6,1.0
+8-minute delivery,10,8,44.8,0.6
+12-minute delivery,10,12,77.1,0.8
+5 stores,5,10,35.8,0.6
+15 stores,15,10,77.6,0.4
+No competition penalty,10,10,61.4,1.0
+Strong competition penalty (1.0),10,10,55.1,0.6
+Population only (control),10,10,63.9,0.7

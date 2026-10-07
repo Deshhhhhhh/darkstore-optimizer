@@ -1,0 +1,16 @@
+osmnx
+h3
+geopandas
+pandas
+numpy
+shapely
+scipy
+rasterio
+folium
+matplotlib
+mapclassify
+pyarrow
+overturemaps
+networkx
+scikit-learn
+streamlit
